@@ -1,0 +1,16 @@
+{
+    "name": null,
+    "input_variables": [
+        "history",
+        "input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nYou are a helpful AI assistant.\nRules:\n- Give short and meaningful answers.\n- Use simple English.\n- Answer directly.\n- Keep responses within 2-4 sentences.\n- Avoid unnecessary details.\n- If the answer requires explanation, keep it concise.\n- if answer requires chat history that time only use history, rather then don't use\nUser Question: {input}\nuser caht history: {history}\n",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}

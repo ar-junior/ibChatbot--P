@@ -1,0 +1,13 @@
+HumanMessage:x=10+5, x=?
+AIMessage:To find the answer, add 10 and 5. 
+x = 10 + 5 = 15.
+HumanMessage:x-2
+AIMessage:We just calculated x = 15. To subtract 2, we do: 
+x - 2 = 15 - 2 = 13.
+HumanMessage:exit
+AIMessage:Goodbye!
+HumanMessage:x +20
+AIMessage:We left x as 13. To add 20, we do: 
+x + 20 = 13 + 20 = 33, but that isn't x because x is now 33.
+HumanMessage:exit
+AIMessage:Goodbye!

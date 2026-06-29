@@ -24,3 +24,9 @@ python-dotenv
 # Machine Learning Utilities
 numpy
 scikit-learn
+
+# web app
+streamlit
+
+langchain-community
+
