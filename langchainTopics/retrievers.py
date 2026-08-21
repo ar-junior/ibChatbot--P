@@ -65,3 +65,7 @@ embeding = FAISS.from_documents(
 )
 
 restivel = embeding.as_retriever(restivel_type = "mmr",)
+
+qurey = " "
+
+result = restivel.invoke(qurey)

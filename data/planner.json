@@ -1,0 +1,121 @@
+{
+  "interview_eligible": true,
+  "interview_status": "Scheduled",
+  "reason": "The candidate has some of the required skills like Python and SQL, but lacks other essential skills like Object-Oriented Programming and LangChain. The candidate's projects and education provide some evidence of their technical abilities.",
+  "total_steps": 6,
+  "total_estimated_questions": 35,
+  "step_plan": [
+    {
+      "step_number": 1,
+      "step_name": "Personal Information",
+      "estimated_questions": 5,
+      "topics": [
+        "Introduction",
+        "Education",
+        "Experience"
+      ]
+    },
+    {
+      "step_number": 2,
+      "step_name": "Programming Languages",
+      "estimated_questions": 8,
+      "topics": [
+        "Python"
+      ]
+    },
+    {
+      "step_number": 3,
+      "step_name": "Libraries / Frameworks",
+      "estimated_questions": 6,
+      "topics": [
+        "LangChain",
+        "Django"
+      ]
+    },
+    {
+      "step_number": 4,
+      "step_name": "Tools",
+      "estimated_questions": 4,
+      "topics": [
+        "Git",
+        "VS Code"
+      ]
+    },
+    {
+      "step_number": 5,
+      "step_name": "Projects",
+      "estimated_questions": 6,
+      "topics": [
+        "eLearning Platform",
+        "Student Management System",
+        "Voice Controlled Assistant"
+      ]
+    },
+    {
+      "step_number": 6,
+      "step_name": "Reasoning",
+      "estimated_questions": 6,
+      "topics": [
+        "Problem Solving",
+        "Object-Oriented Programming",
+        "Data Structures and Algorithms"
+      ]
+    }
+  ],
+  "programming_languages": [
+    {
+      "skill_name": "Python",
+      "mandatory": true,
+      "basic_questions": 3,
+      "intermediate_questions": 3,
+      "advanced_questions": 2,
+      "terminate_if_failed": true
+    }
+  ],
+  "libraries_frameworks": [
+    {
+      "skill_name": "LangChain",
+      "mandatory": true,
+      "basic_questions": 2,
+      "intermediate_questions": 2,
+      "advanced_questions": 1,
+      "terminate_if_failed": true
+    },
+    {
+      "skill_name": "Django",
+      "mandatory": false,
+      "basic_questions": 1,
+      "intermediate_questions": 1,
+      "advanced_questions": 0,
+      "terminate_if_failed": false
+    }
+  ],
+  "tools": [
+    {
+      "skill_name": "Git",
+      "mandatory": true,
+      "basic_questions": 2,
+      "intermediate_questions": 1,
+      "advanced_questions": 0,
+      "terminate_if_failed": true
+    },
+    {
+      "skill_name": "VS Code",
+      "mandatory": false,
+      "basic_questions": 1,
+      "intermediate_questions": 0,
+      "advanced_questions": 0,
+      "terminate_if_failed": false
+    }
+  ],
+  "project_topics": [
+    "eLearning Platform",
+    "Student Management System",
+    "Voice Controlled Assistant"
+  ],
+  "reasoning_topics": [
+    "Problem Solving",
+    "Object-Oriented Programming",
+    "Data Structures and Algorithms"
+  ]
+}

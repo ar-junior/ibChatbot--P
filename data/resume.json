@@ -1,0 +1,81 @@
+{
+  "name": "Arjun Rathwa",
+  "email": "rathwa.arjunior@email.com",
+  "phone": "+91 6353863357",
+  "location": null,
+  "summary": null,
+  "technical_skills": [
+    "Python",
+    "SQL",
+    "HTML",
+    "CSS",
+    "Django",
+    "MySQL",
+    "Firebase",
+    "Git",
+    "VS Code",
+    "Figma"
+  ],
+  "soft_skills": [
+    "Adaptable",
+    "Creative",
+    "Quick Learner",
+    "Problem-solving"
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in (CA & IT)",
+      "institute": "Ganpat University Mehsana",
+      "passing_year": null,
+      "cgpa": "6.88"
+    },
+    {
+      "degree": "Bachelor of Science - Mathematics",
+      "institute": "Grow More College Himmatnagar",
+      "passing_year": null,
+      "cgpa": "6.94"
+    },
+    {
+      "degree": "12th Science",
+      "institute": "St. Xavier's High School Anand",
+      "passing_year": null,
+      "cgpa": "62%"
+    }
+  ],
+  "experience": [],
+  "projects": [
+    {
+      "title": "eLearning Platform (Web Application)",
+      "description": "Developed an eLearning web application as part of a team project",
+      "technologies": [
+        "Firebase",
+        "Figma",
+        "Git",
+        "VS Code"
+      ],
+      "role": "Backend Developer & UI Designer"
+    },
+    {
+      "title": "Student Management System (Web Application)",
+      "description": "Currently developing a web-based Student Management System as part of a team",
+      "technologies": [
+        "Python",
+        "Firebase"
+      ],
+      "role": "Backend Developer"
+    },
+    {
+      "title": "Voice Controlled Assistant (Python - CLI Application)",
+      "description": "Developed a voice-controlled assistant using Python and Google Speech Recognition",
+      "technologies": [
+        "Python",
+        "Google Speech Recognition"
+      ],
+      "role": "Self Project"
+    }
+  ],
+  "certifications": [],
+  "github": "https://github.com/ar-junior",
+  "linkedin": null,
+  "languages": []
+}

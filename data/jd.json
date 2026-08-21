@@ -1,0 +1,53 @@
+{
+  "job_title": "AI Engineer Intern",
+  "company_name": "ABC Technologies Pvt. Ltd.",
+  "location": "Ahmedabad, Gujarat",
+  "job_type": "Full-Time Internship",
+  "experience_required": null,
+  "education_requirements": [
+    "Bachelor's or Master's degree in Computer Science, Information Technology, Computer Applications, Artificial Intelligence, or a related field."
+  ],
+  "required_skills": [
+    "Python",
+    "Object-Oriented Programming (OOP)",
+    "Data Structures and Algorithms (Basic)",
+    "LangChain",
+    "Prompt Engineering",
+    "REST APIs",
+    "Git and GitHub",
+    "SQL",
+    "Problem Solving"
+  ],
+  "preferred_skills": [
+    "RAG (Retrieval-Augmented Generation)",
+    "Vector Databases (ChromaDB, FAISS, Pinecone)",
+    "FastAPI",
+    "Docker",
+    "Linux",
+    "Google Gemini API, OpenAI API, or Groq API",
+    "Basic Machine Learning",
+    "Streamlit"
+  ],
+  "responsibilities": [
+    "Build AI-powered applications using Python and LangChain.",
+    "Develop and improve RAG pipelines.",
+    "Integrate LLM APIs into applications.",
+    "Design prompts for different AI use cases.",
+    "Debug and optimize AI workflows.",
+    "Work with vector databases and embeddings.",
+    "Collaborate with senior developers during development."
+  ],
+  "nice_to_have": [
+    "Personal AI projects.",
+    "GitHub profile with active repositories.",
+    "Internship experience.",
+    "Open-source contributions.",
+    "Strong communication skills.",
+    "Quick learner with good analytical thinking."
+  ],
+  "minimum_eligibility": [
+    "Good understanding of Python programming.",
+    "At least one AI, ML, Web, or Automation project.",
+    "Strong interest in Generative AI and LLMs."
+  ]
+}

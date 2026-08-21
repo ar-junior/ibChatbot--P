@@ -1,0 +1,70 @@
+Job Title: AI Engineer Intern
+
+Company: ABC Technologies Pvt. Ltd.
+
+Location: Ahmedabad, Gujarat
+Job Type: Full-Time Internship
+Duration: 6 Months
+
+About the Role
+
+We are looking for a passionate AI Engineer Intern who is interested in building AI-powered applications using Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), LangChain, and Python. The candidate should be willing to learn new technologies and work with our development team.
+
+Required Skills
+
+- Python
+- Object-Oriented Programming (OOP)
+- Data Structures and Algorithms (Basic)
+- LangChain
+- Prompt Engineering
+- REST APIs
+- Git and GitHub
+- SQL
+- Problem Solving
+
+Preferred Skills
+
+- RAG (Retrieval-Augmented Generation)
+- Vector Databases (ChromaDB, FAISS, Pinecone)
+- FastAPI
+- Docker
+- Linux
+- Google Gemini API, OpenAI API, or Groq API
+- Basic Machine Learning
+- Streamlit
+
+Education
+
+- Bachelor's or Master's degree in Computer Science, Information Technology, Computer Applications, Artificial Intelligence, or a related field.
+
+Responsibilities
+
+- Build AI-powered applications using Python and LangChain.
+- Develop and improve RAG pipelines.
+- Integrate LLM APIs into applications.
+- Design prompts for different AI use cases.
+- Debug and optimize AI workflows.
+- Work with vector databases and embeddings.
+- Collaborate with senior developers during development.
+
+Nice to Have
+
+- Personal AI projects.
+- GitHub profile with active repositories.
+- Internship experience.
+- Open-source contributions.
+- Strong communication skills.
+- Quick learner with good analytical thinking.
+
+Selection Process
+
+1. Resume Screening
+2. AI Technical Interview
+3. Live Technical Interview
+4. HR Interview
+
+Minimum Eligibility
+
+- Good understanding of Python programming.
+- At least one AI, ML, Web, or Automation project.
+- Strong interest in Generative AI and LLMs.

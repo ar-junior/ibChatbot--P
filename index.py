@@ -199,43 +199,79 @@
 
 # practice 3
 
+# from langchain_groq import ChatGroq
+# from dotenv import load_dotenv 
+# from langchain_core.prompts import ChatPromptTemplate
+# from langchain_core.output_parsers import StrOutputParser
+# from langchain_core.runnables import RunnableParallel, RunnablePassthrough, RunnableSequence
+
+# load_dotenv()
+
+# model = ChatGroq(
+#     model="llama-3.1-8b-instant",
+#     temperature= 1.5
+# )
+
+# prompt1 = ChatPromptTemplate([
+#     ("system",  "you are a python teacher with 15+ years of experience"),
+#     ("human" , "give me detaild notes about topic {topic}")
+# ])
+
+# parser = StrOutputParser()
+
+# prompt2 = ChatPromptTemplate([
+#     ("system",  "you are a python teacher with 15+ years of experience"),
+#     ("human" , "give me 5 mcq question {notes}")
+# ])
+
+# chain = prompt1 | model | parser 
+
+# chains = RunnableParallel({
+#     "notes" : RunnablePassthrough(),
+#     "mcq" : RunnableSequence(prompt2,model,parser) # prompt2 | model | parser
+# })
+
+# final_chain = chain | chains
+
+
+# user = input("ask...")
+
+# result = final_chain.invoke({"topic" : "OOPs"})
+
+# print(result["mcq"])
+
+
+# practice 4
+
 from langchain_groq import ChatGroq
-from dotenv import load_dotenv 
-from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.output_parsers import StrOutputParser
-from langchain_core.runnables import RunnableParallel, RunnablePassthrough, RunnableSequence
+from langchain_core.tools import tool
+from dotenv import load_dotenv
+from langchain_core.messages import HumanMessage,AIMessage,ToolMessage
+
 
 load_dotenv()
 
 model = ChatGroq(
-    model="llama-3.1-8b-instant",
-    temperature= 1.5
+    model="llama-3.3-70b-versatile"
 )
 
-prompt1 = ChatPromptTemplate([
-    ("system",  "you are a python teacher with 15+ years of experience"),
-    ("human" , "give me detaild notes about topic {topic}")
-])
+@tool
+def multyply(a:int,b:int)->int:
+    """given 2 numbers a and b this tool return their product"""
+    return a * b
 
-parser = StrOutputParser()
+model_with_tool = model.bind_tools([multyply])
 
-prompt2 = ChatPromptTemplate([
-    ("system",  "you are a python teacher with 15+ years of experience"),
-    ("human" , "give me 5 mcq question {notes}")
-])
-
-chain = prompt1 | model | parser 
-
-chains = RunnableParallel({
-    "notes" : RunnablePassthrough(),
-    "mcq" : RunnableSequence(prompt2,model,parser) # prompt2 | model | parser
-})
-
-final_chain = chain | chains
-
+messages = []
 
 user = input("ask...")
+messages.append(HumanMessage(user))
 
-result = final_chain.invoke({"topic" : "OOPs"})
 
-print(result["mcq"])
+result = model_with_tool.invoke(user)
+
+ans = result.tool_calls[0]
+
+re = multyply.invoke(ans["args"])
+
+print(messages)

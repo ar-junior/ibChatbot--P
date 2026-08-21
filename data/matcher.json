@@ -1,0 +1,29 @@
+{
+  "requirement_match_score": 40.0,
+  "matched_skills": [
+    "Python",
+    "SQL",
+    "Git"
+  ],
+  "missing_required_skills": [
+    "Object-Oriented Programming (OOP)",
+    "Data Structures and Algorithms (Basic)",
+    "LangChain",
+    "Prompt Engineering",
+    "REST APIs",
+    "Git and GitHub"
+  ],
+  "matched_preferred_skills": [],
+  "strengths": [
+    "Python programming",
+    "Experience with Git and GitHub",
+    "Education in Computer Science"
+  ],
+  "weaknesses": [
+    "Lack of experience in AI and ML",
+    "Missing required skills like LangChain and Prompt Engineering"
+  ],
+  "interview_eligible": true,
+  "recommendation": "Moderate Match",
+  "reason": "The candidate has some of the required skills like Python and SQL, but lacks other essential skills like Object-Oriented Programming and LangChain. The candidate's projects and education provide some evidence of their technical abilities."
+}
